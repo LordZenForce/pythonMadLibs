@@ -8,7 +8,7 @@ Label(root, text = 'Click Here!', font= 'arial 15 bold') .place (x=40, y=80)
 
 def madlib1():
 
-  animals= input('enter a animal name: ')
+  animal= input('enter a animal name: ')
   pottery= input('enter a type of pottery: ')
   profession= input('enter a type of profession: ')
   name= input('enter a name: ')
