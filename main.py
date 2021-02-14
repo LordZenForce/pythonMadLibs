@@ -1,4 +1,4 @@
-from tkinter import *
+import Tkinter
 
 root.geometry ('300x300')
 root.title ('Python Mad Libs Generator')
