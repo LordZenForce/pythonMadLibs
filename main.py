@@ -18,7 +18,7 @@ def madlib():
   
   print( 'Oh wow, its a ' + animal + '! I cant believe I was foolish enough to leave out my ' + pottery + '. The ' + profession + ' said before yelling ' + name + ' go to ' + place + ' and ' + verb + ' so we can chase the animal away with ' + food + '.')
   
-  Button (root, text= 'A Tragedy!', font= 'Helvetica 10', command= madlib(), bg= 'ghost white')
+  Button (root, text= 'A Tragedy!', font= 'Helvetica 10', command= madlib(), bg= 'ghost white').place (x=80, y=240)
   
   root.mainloop()
   
