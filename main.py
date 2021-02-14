@@ -5,7 +5,7 @@ root.title ('Python Mad Libs Generator')
 Label (root, text = 'Mad Libs Generator, enjoy!', font= 'arial 15 bold') .pack()
 Label (root, text = 'Click One!', font= 'arial 15 bold') .place (x=40, y=80)
 
-def madlib()
+def madlib():
 
   animals= input('enter a animal name: ')
   pottery= input('enter a type of pottery: ')
