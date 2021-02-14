@@ -1,5 +1,6 @@
-import Tkinter
+from tkinter import * 
 
+root = TK()
 root.geometry ('300x300')
 root.title ('Python Mad Libs Generator')
 Label (root, text = 'Mad Libs Generator, enjoy!', font= 'arial 15 bold') .pack()
